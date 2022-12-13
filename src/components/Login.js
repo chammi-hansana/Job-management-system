@@ -11,13 +11,17 @@ export default function Login() {
   };
   return (
     <>
-    
+    <div style={{backgroundColor: 'hsl(218deg 50% 91%)',
+             display: "flex",
+  
+  
+  }}>
       <Form style={{ textAlign:"left" , 
       fontfamily: 'Poppins',
-     padding: "70px 25px 40px",
-     margin: "90px 550px",
+     padding: "50px 60px 50px ",
+     margin: "90px 550px 450px auto",
      width: "420px",
-       backgroundColor: 'hsl(218deg 50% 91%)',
+       backgroundColor: '#758EB7',
      borderRadius:"50px",
      boxShadow: '0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19)',
       
@@ -53,7 +57,7 @@ export default function Login() {
           
         </Form.Group>
       </Form>
-      
+      </div>
     </>
     
   );

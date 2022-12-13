@@ -16,10 +16,10 @@ export default function Post() {
       <Card style={{ margin: "10px" }}>
         <Card.Body>
           <Card.Title>
-            <div style={{ display: "flex" }}>
-              <h3>Intern Software Engineer</h3>
+            <div style={{ display: "blog" }}>
+              <h3>House builder</h3>
               {location.pathname === "/profile" && (
-                <Button variant="danger" size="sm" style={{ margin: "0 20px" }}>
+                <Button variant="danger" size="sm" style={{ margin: "3px 5px 0px 500px"  }}>
                   Not selected
                 </Button>
               )}

@@ -3,17 +3,18 @@ import Post from "./Post/Post";
 
 export default function Wall() {
   return (
-    <div
-      style={{ margin: "50px auto", justifyContent: "center", display: "flex", }}
-    >
-      <div style={{ width: '40%', height: '90%', background: "gray",  borderRadius: '8px', padding: '20px 5px' }}>
-        <h1>Recent Jobs!</h1>
+   
+      
+      <div style={{ display:"flow", background: 'linear-gradient(to right, rgba(102, 126, 234, 0.5), rgba(118, 75, 162, 0.5))',  borderRadius: '5px', padding: '20px 5px' }}>
+      <h1>Recent Jobs!</h1>
+      <div style={{ margin: "20px 20px 0px 50px",display:"blog"}}></div>
+        
+        <Post />
         <Post/>
         <Post/>
         <Post/>
-        <Post/>
-        <Post/>
+       
       </div>
-    </div>
+    
   );
 }
