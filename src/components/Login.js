@@ -19,9 +19,9 @@ export default function Login() {
       <Form style={{ textAlign:"left" , 
       fontfamily: 'Poppins',
      padding: "50px 60px 50px ",
-     margin: "90px 550px 450px auto",
+     margin: "90px 550px 170px auto",
      width: "420px",
-       backgroundColor: '#758EB7',
+       backgroundColor: 'hsl(218deg 50% 91%)',
      borderRadius:"50px",
      boxShadow: '0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19)',
       
@@ -46,7 +46,7 @@ export default function Login() {
           </div>
           <a href="/sign-up" > Signup</a>
           
-          <Button  style={{width:"280px",height:"40px",textAlign:"center",padding:"5px 10px",margin:"40px 00px 0px 50px"}}
+          <Button  style={{width:"280px",height:"40px",textAlign:"center",padding:"5px 10px",margin:"40px 00px 0px 20px"}}
             className="mt-8"
             onClick={(e) => loginHandler(e)}
             variant="primary"

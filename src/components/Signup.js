@@ -22,11 +22,16 @@ export default function Signup() {
   };
   return (
     <>
+     <div style={{backgroundColor: 'hsl(218deg 50% 91%)',
+             display: "flex",
+  
+  
+  }}>
       <Form style={{ margin: "5% 40%", 
-      fontfamily: 'Poppins',
+      fontfamily: 'fantasy',
       alignItems: "center",
        textAlign:"left" , 
-     padding: "70px 25px 40px",
+     padding: "60px 45px 40px",
      margin: "90px 550px",
      width: "440px",
        backgroundColor: 'hsl(218deg 50% 91%)',
@@ -36,7 +41,7 @@ export default function Signup() {
       
           
       }}>
-        <div style={{textAlign:"center"}}>
+        <div style={{textAlign:"center",fontFamily:"fantasy",}}>
         <h1 className="mb-4">Signup</h1>
         </div>
 
@@ -82,7 +87,7 @@ export default function Signup() {
           </div>
 
           Already registered <a href="/login" > Login </a>
-          <Button  style={{width:"300px",height:"40px",textAlign:"center",padding:"5px 5px",margin:"50px 10px 0px 50px"}}
+          <Button  style={{width:"300px",height:"40px",textAlign:"center",padding:"5px 5px",margin:"50px 80px 0px 30px"}}
             className="mt-4"
             onClick={(e) => loginHandler(e)}
             variant="primary"
@@ -91,6 +96,7 @@ export default function Signup() {
           </Button>{" "}
         </Form.Group>
       </Form>
+      </div>
     </>
   );
 }

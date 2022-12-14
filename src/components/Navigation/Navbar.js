@@ -19,7 +19,7 @@ export default function NavigationBar() {
 
 
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav" style={{ padding: "5px 300px 0px", }}>
+        <Navbar.Collapse id="basic-navbar-nav" style={{ padding: "5px 60px 10px 310px", }}>
           <Nav className="me-auto">
             <Nav.Link href="/home">Home</Nav.Link>
             <Nav.Link href="/about">About</Nav.Link>
