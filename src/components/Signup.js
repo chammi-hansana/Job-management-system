@@ -17,35 +17,47 @@ export default function Signup() {
   ];
 
   const loginHandler = (e) => {
-    navigate("/home");
+    navigate("/Findjob");
     console.log("login");
   };
   return (
     <>
-     <div style={{backgroundColor: 'hsl(218deg 50% 91%)',
-             display: "flex",
-  
-  
-  }}>
-      <Form style={{ margin: "5% 40%", 
-      fontfamily: 'fantasy',
-      alignItems: "center",
-       textAlign:"left" , 
-     padding: "60px 45px 40px",
-     margin: "90px 550px",
-     width: "440px",
-       backgroundColor: 'hsl(218deg 50% 91%)',
-     borderRadius:"50px",
-     boxShadow: '0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19)',
+ <div 
+        style={{
+          backgroundImage:"url('https://images.unsplash.com/photo-1485083269755-a7b559a4fe5e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80')",
+          height:'99vh',
+          width:'131.2vh',
+          marginTop:'-2px',
+          backgroundSize:'cover',
+          //opacity:"0.8",
+          backgroundRepeat: 'no-repeat',
+          backgroundPosition:"center",
+          margin: "0px 2px 0px 650px",
+          position:"fixed",
+         
+                 
+        }}
+      >
+      </div>
+      <Form style={{   textAlign:"left" , 
+      fontfamily: 'Poppins',
+      fontSize:'20px',
+      padding: "15px 60px  ",
+      margin: "1px 5px 0px 3px",
+      width: "92vh",
+      height:'100vh',
+      backgroundColor: 'white',
+      boxShadow: '0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19)',
+      
+      }}>
       
       
           
-      }}>
-        <div style={{textAlign:"center",fontFamily:"fantasy",}}>
-        <h1 className="mb-4">Signup</h1>
+        <div style={{textAlign:"center",fontSize:'60px'}}>
+        <p className="mb-2">Signup</p>
         </div>
-
-        <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+        <div style={{fontSize:'15px'}}>
+        <Form.Group className="mb-2" controlId="exampleForm.ControlInput1">
           <div className="mb-2">
             <Form.Label>Name</Form.Label>
             <Form.Control type="text" placeholder="Enter your name" />
@@ -63,7 +75,7 @@ export default function Signup() {
             <Form.Control type="text" placeholder="Enter your address" />
           </div>
           <div className="mb-2">
-            <Form.Label style={{ marginRight: "20px" ,}}>User type</Form.Label>
+            <Form.Label style={{ marginRight: "20px",}}>User type</Form.Label>
             <ButtonGroup>
               {radios.map((radio, idx) => (
                 <ToggleButton
@@ -85,18 +97,22 @@ export default function Signup() {
             <Form.Label className="mt-3">Password</Form.Label>
             <Form.Control type="pasword" placeholder="Password" />
           </div>
+          
+          <div style={{textAlign:"left",fontSize:'20px'}}>
+          Already registered <a href="/login" > Login </a></div>
 
-          Already registered <a href="/login" > Login </a>
-          <Button  style={{width:"300px",height:"40px",textAlign:"center",padding:"5px 5px",margin:"50px 80px 0px 30px"}}
-            className="mt-4"
+          <Button  style={{width:"380px",height:"50px",fontSize:'19px',textAlign:"center",padding:"10px 55px",margin:"70px 30px 10px 50px"}}
+            className="mt-5"
             onClick={(e) => loginHandler(e)}
             variant="primary"
           >
             Signup
           </Button>{" "}
         </Form.Group>
+        </div>
       </Form>
-      </div>
+      
+      
     </>
   );
 }

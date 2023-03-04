@@ -18,7 +18,7 @@ export default function Post() {
           <Card.Title>
             <div style={{ display: "blog" }}>
               <h3>House builder</h3>
-              {location.pathname === "/profile" && (
+              {location.pathname === "/Findjob" && (
                 <Button variant="danger" size="sm" style={{ margin: "3px 5px 0px 500px"  }}>
                   Not selected
                 </Button>
@@ -34,7 +34,7 @@ export default function Post() {
             bulk of the card's content.
           </Card.Text>
 
-          {location.pathname === "/home" && (
+          {location.pathname === "/Findjob" && (
             <Button
               className="mt-4"
               onClick={(e) => applyHandler(e)}

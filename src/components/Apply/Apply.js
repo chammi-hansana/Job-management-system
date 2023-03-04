@@ -9,9 +9,12 @@ export default function Apply() {
       <NavigationBar />
       <div
         style={{
-          margin: "50px auto",
+          margin: " 3px 1px 2px 4px",
+          padding: " 30px 1px 2px 4px",
+          
           justifyContent: "center",
           display: "flex",
+          backgroundColor:"lightgray"
         }}
       >
         <div>

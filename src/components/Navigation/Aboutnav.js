@@ -1,25 +1,25 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
+import Aboutnav from "react-bootstrap/Aboutnav";
 
 
 export default function NavigationBar() {
   return (
-    <Navbar bg="light" expand="lg" className="navbar-fixed-top"  >
+    <Aboutnav bg="light" expand="lg" className="subnavbar-fixed-top"  >
       <Container>
-        <Navbar.Brand href="#Findjob">Construction Services Management System</Navbar.Brand>
-        <Navbar.Brand id="#Findjob"style={{ color: "#0D638F",
+        <Aboutnav.Brand href="#About">Construction Services Management System</Aboutnav.Brand>
+        <Aboutnav.Brand id="#About"style={{ color: "#0D638F",
                 padding: "5px 200px 0px",
                margin: "5px 2px",
                 width: "20px",
                 fontSize:"30px"
-               }}> Job Seeker </Navbar.Brand>
+               }}> About </Aboutnav.Brand>
         
         
 
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav" style={{ padding: "5px 60px 10px 310px", }}>
+        <Aboutnav.Toggle aria-controls="basic-subnavbar-nav" />
+        <Aboutnav.Collapse id="basic-subnavbar-nav" style={{ padding: "5px 60px 10px 310px", }}>
           <Nav className="me-auto">
             <Nav.Link href="/Findjob">FindJob</Nav.Link>
             <Nav.Link href="/about">About</Nav.Link>
@@ -28,8 +28,8 @@ export default function NavigationBar() {
               Logout
             </Nav.Link>
           </Nav>
-        </Navbar.Collapse>
+        </Aboutnav.Collapse>
       </Container>
-    </Navbar>
+    </Aboutnav>
   );
 }

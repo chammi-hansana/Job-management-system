@@ -6,6 +6,8 @@ export default function Profile() {
   return (
     <div>
       <NavigationBar />
+    
+
       <div
         style={{
           margin: "1px auto",
