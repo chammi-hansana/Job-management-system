@@ -3,6 +3,7 @@ import NavigationBar from "../Navigation/Navbar";
 import Post from "../Wall/Post/Post";
 import ApplicationForm from "./ApplicationForm/ApplicationForm";
 
+
 export default function Apply() {
   return (
     <div>
@@ -20,6 +21,7 @@ export default function Apply() {
         <div>
           <Post />
           <ApplicationForm />
+        
         </div>
       </div>
     </div>

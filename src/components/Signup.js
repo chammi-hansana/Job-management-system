@@ -1,14 +1,14 @@
 import React, { useState } from "react";
 import { Button, Form } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
-import Dropdown from "react-bootstrap/Dropdown";
+
 import ButtonGroup from "react-bootstrap/ButtonGroup";
 import ToggleButton from "react-bootstrap/ToggleButton";
 
 export default function Signup() {
   let navigate = useNavigate();
 
-  const [checked, setChecked] = useState(false);
+  
   const [radioValue, setRadioValue] = useState("1");
 
   const radios = [
@@ -25,14 +25,13 @@ export default function Signup() {
  <div 
         style={{
           backgroundImage:"url('https://images.unsplash.com/photo-1485083269755-a7b559a4fe5e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80')",
-          height:'99vh',
-          width:'131.2vh',
-          marginTop:'-2px',
+          height:'100.5vh',
+          width:'130.3vh',
           backgroundSize:'cover',
           //opacity:"0.8",
           backgroundRepeat: 'no-repeat',
           backgroundPosition:"center",
-          margin: "0px 2px 0px 650px",
+          margin: "-1px 2px 0px 630px",
           position:"fixed",
          
                  
@@ -42,10 +41,10 @@ export default function Signup() {
       <Form style={{   textAlign:"left" , 
       fontfamily: 'Poppins',
       fontSize:'20px',
-      padding: "15px 60px  ",
-      margin: "1px 5px 0px 3px",
-      width: "92vh",
-      height:'100vh',
+      padding: "8px 50px  ",
+      margin: "1px 15px 2px 1px",
+      width: "90vh",
+      height:'99.5vh',
       backgroundColor: 'white',
       boxShadow: '0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19)',
       
