@@ -8,7 +8,7 @@ export default function Pending() {
         <div> <NavigationBar /> 
 
 <Card style={{ margin: "60px 4px 10px 120px",width: "70.8vh",
-      height:'30.4vh',backgroundColor:'#BEF0CB'}}>
+      height:'30.4vh',backgroundColor:'#68c9a9'}}>
         <Card.Body>
           <Card.Title>
             <div style={{ display: "blog" }}>
@@ -32,7 +32,7 @@ export default function Pending() {
       </Card>
 
       <Card style={{ margin: "60px 4px 10px 120px",width: "70.8vh",
-      height:'30.4vh',backgroundColor:'#BEF0CB'}}>
+      height:'30.4vh',backgroundColor:'#68c9a9'}}>
         <Card.Body>
           <Card.Title>
             <div style={{ display: "blog" }}>
@@ -55,7 +55,7 @@ export default function Pending() {
           </Card.Body>
       </Card>
       <Card style={{ margin: "-500px 0px 10px 930px",width: "70.8vh",
-      height:'30.4vh',backgroundColor:'#BEF0CB'}}>
+      height:'30.4vh',backgroundColor:'#68c9a9'}}>
         <Card.Body>
           <Card.Title>
             <div style={{ display: "blog" }}>

@@ -81,7 +81,7 @@ export default function About() {
                 padding: "45px 50px 100px 50px",
                 backgroundColor: "#B4CDE6",
                 fontSize: "19px",
-                borderRadius: "40px",
+                borderRadius: "30px",
                 boxShadow:
                   "0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19)",
               }}
@@ -107,7 +107,7 @@ export default function About() {
                 padding: "45px 50px 100px 50px",
                 backgroundColor: "#B4CDE6",
                 fontSize: "19px",
-                borderRadius: "40px",
+                borderRadius: "30px",
                 boxShadow:
                   "0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19)",
               }}

@@ -2,7 +2,7 @@
 import Login from "./components/Login";
 import Findjob from "./components/Findjob";
 import About from "./components/About";
-import HireJobs from "./components/EmployerFiles/HireJobs";
+
 import Approval from "./components/Approval";
 import Pending from "./components/Pending";
 import Reject from "./components/Reject";
@@ -13,9 +13,14 @@ import Signup from "./components/Signup";
 import Apply from "./components/Apply/Apply";
 import Profile from "./components/Profile/Profile";
 
+import HireJobs from "./components/EmployerFiles/HireJobs";
+import Inputpost from "./components/EmployerFiles/Inputpost";
+
+
 
 function App() {
   return (
+   
     
     <Router>
       <Routes>
@@ -28,11 +33,13 @@ function App() {
         <Route exact path="/apply" element={<Apply/>} />
         <Route exact path="/about" element={<About/>} />
         <Route exact path="/profile" element={<Profile/>} />
-        <Route exact path="/HireJobs" element={<HireJobs/>} />
-
+        
         <Route exact path="/Approval" element={<Approval/>} />
         <Route exact path="/Pending" element={<Pending/>} />
         <Route exact path="/Reject" element={<Reject/>} />
+
+        <Route exact path="/HireJobs" element={<HireJobs/>} />
+        <Route exact path="/Inputpost" element={<Inputpost/>} />
       </Routes>
     </Router>
   );
