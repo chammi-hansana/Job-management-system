@@ -22,16 +22,7 @@ export default function About() {
           display: "fixed",
         }}
       ></div>
-      {/* <div
-        style={{
-          textAlign: "center",
-          fontSize: "70px",
-          color: "black",
-          fontFamily: "Rockwell Extra Bold",
-        }}
-      >
-        <p className="mb-2">About Us</p>
-      </div> */}
+    
 
       <div
         style={{
@@ -78,7 +69,7 @@ export default function About() {
                 width: "30rem",
                 height: "19rem",
                 margin: "40px 20px 150px 190px",
-                padding: "45px 50px 100px 50px",
+                padding: "35px 50px 100px 50px",
                 backgroundColor: "#B4CDE6",
                 fontSize: "19px",
                 borderRadius: "30px",
@@ -86,11 +77,10 @@ export default function About() {
                   "0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19)",
               }}
             >
-              <Card.Title style={{ fontSize: "32px" }}>Job Seekers</Card.Title>
+              <Card.Title style={{ fontSize: "33px" ,marginBottom:'8px'}}>Job Seekers</Card.Title>
               <Card.Text>
-                Search jobs, post your resume and access career info and
-                download sample resumes, Papers of various recruiters and sample
-                cover letters etc. and can upload any useful info.
+              The website  provide a centralized location for application tracking, and communication between stakeholders, making it easier for job seekers to find suitable job opportunities in the construction industry.
+
               </Card.Text>
             </Card.Body>
           </card>
@@ -104,7 +94,8 @@ export default function About() {
                 width: "30rem",
                 height: "19rem",
                 margin: "40px 50px 150px 200px",
-                padding: "45px 50px 100px 50px",
+                padding: "35px 30px 100px 50px",
+                textAlign: "left",
                 backgroundColor: "#B4CDE6",
                 fontSize: "19px",
                 borderRadius: "30px",
@@ -112,11 +103,9 @@ export default function About() {
                   "0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19)",
               }}
             >
-              <Card.Title style={{ fontSize: "32px" }}>Employers</Card.Title>
+              <Card.Title style={{ fontSize: "33px",marginBottom:'8px' }}>Employers</Card.Title>
               <Card.Text>
-                Get instant access to today's most powerful hiring tools - post
-                jobs, search resumes, screen candidates and streamline your
-                entire hiring process .
+                The website aims to provide a comprehensive platform for employers to manage their recruitment process efficiently and effectively, streamlining project management, and improving communication between stakeholders in the construction industry.
               </Card.Text>
             </Card.Body>
           </card>
@@ -139,6 +128,7 @@ export default function About() {
           <card style={{ width: "80rem" }}>
             <Card.Body
               style={{
+                textAlign: "justify",
                 width: "60rem",
                 height: "15rem",
                 margin: "10px 50px 100px 300px",
@@ -147,9 +137,7 @@ export default function About() {
                 borderRadius: "10px",
               }}
             >
-              <Card.Text style={{fontSize:'20px'}}>  The site also has a user-friendly interface that allows job seekers to create a profile, upload their resumes and apply for jobs directly through the site.
-              <br /> 
-The Construction Services Management System website is a valuable tool for job seekers in the construction industry as it provides access to a wide range of job opportunities and helps streamline the job search process.
+              <Card.Text style={{fontSize:'18px'}}>  The vision of the construction job management system website project is to provide a comprehensive platform that addresses the challenges faced by the construction industry in managing job recruitment and project management efficiently and effectively. our goal is to develop a user-friendly and secure website that connects employers with job seekers, streamlining the recruitment process and improving communication between stakeholders.We envision that the website will contribute to the growth and development of the construction industry, improving productivity, and reducing project delays and costs.
               
             
               </Card.Text>
