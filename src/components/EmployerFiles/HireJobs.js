@@ -47,7 +47,7 @@ export default function HireJobs() {
               <Nav.Link href="/HireJobs">HireJobs</Nav.Link>
 
               <Nav.Link href="/Inputpost">AddPost</Nav.Link>
-              <Nav.Link href="/about">About</Nav.Link>
+              <Nav.Link href="/EmpAbout">About</Nav.Link>
               <Nav.Link href="/login" style={{ color: "red" }}>
                 Logout
               </Nav.Link>

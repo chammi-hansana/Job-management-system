@@ -3,6 +3,7 @@ import Login from "./components/Login";
 import Findjob from "./components/Findjob";
 import About from "./components/About";
 
+
 import Approval from "./components/Approval";
 import Pending from "./components/Pending";
 import Reject from "./components/Reject";
@@ -15,7 +16,7 @@ import Profile from "./components/Profile/Profile";
 
 import HireJobs from "./components/EmployerFiles/HireJobs";
 import Inputpost from "./components/EmployerFiles/Inputpost";
-
+import EmpAbout from "./components/EmployerFiles/EmpAbout";
 
 
 function App() {
@@ -40,6 +41,7 @@ function App() {
 
         <Route exact path="/HireJobs" element={<HireJobs/>} />
         <Route exact path="/Inputpost" element={<Inputpost/>} />
+        <Route exact path="/EmpAbout" element={<EmpAbout/>} />
       </Routes>
     </Router>
   );

@@ -22,11 +22,11 @@ export default function Inputpost() {
     <div>
       <Navbar bg="light" expand="lg" className="navbar-fixed-top">
         <Container>
-          <Navbar.Brand href="#Findjob">
+          <Navbar.Brand href="#Hirejobs">
             Construction Services Management System
           </Navbar.Brand>
           <Navbar.Brand
-            id="#Findjob"
+            id="#Hirejobs"
             style={{
               color: "#0D638F",
               padding: "5px 200px 0px ",
@@ -49,7 +49,7 @@ export default function Inputpost() {
               <Nav.Link href="/HireJobs">HireJobs</Nav.Link>
 
               <Nav.Link href="/Inputpost">AddPost</Nav.Link>
-              <Nav.Link href="/about">About</Nav.Link>
+              <Nav.Link href="/EmpAbout">About</Nav.Link>
               <Nav.Link href="/login" style={{ color: "red" }}>
                 Logout
               </Nav.Link>

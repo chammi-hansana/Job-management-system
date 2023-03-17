@@ -22,7 +22,7 @@ export default function NavigationBar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" style={{ padding: "5px 50px 10px 300px", }}>
           <Nav className="me-auto">
-            <Nav.Link href="/Findjob">FindJob</Nav.Link>
+            <Nav.Link href="/Findjob">FindJobs</Nav.Link>
             <Nav.Link href="/about">About</Nav.Link>
             <Nav.Link href="/profile">Profile</Nav.Link>
             <Nav.Link href="/login" style={{ color: "red" }}>

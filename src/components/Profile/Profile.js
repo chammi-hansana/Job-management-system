@@ -25,34 +25,7 @@ export default function Profile() {
     <div>
       <NavigationBar />
 
-      {/*     
-            
-
-          
-        <div id="left-pane" style={{width: '500px',height:"330px" ,margin: '0px 10px 10px 800px',
-              padding:"20px 30px 10px 50px",
-              //backgroundColor: '#7097A8',
-              borderRadius:"10px",
-              boxShadow: '0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19)',}}>
-             
-            <p
-            style={{
-              fontSize:'38px',margin: "10px 2px 0px 20px",fontFamily:"fantasy"}} ></p>
-
-          <div style={{fontSize:'14px' ,margin: '19px 10px 0px 18px',fontFamily:"monospace" }}> 
-          <p></p> 
-            <p>Name: Saranga Perera</p>
-            <p>Age: 32</p>
-            <p>Address : Galle</p>
-            <p>Contact No:0768904563</p>
-            <p>User Type: Job Seeker</p>
-            </div> </div>
-        */}
-
-      {/* <div id="right-pane" style={{width: '70%',margin: "10px auto",}}>
-          <h2 className="mb-4">Applied Jobs</h2>
-          <div style={{width: '80%'}}></div></div>
-          <Post /> */}
+     
 
       <section
         className="vh-10"

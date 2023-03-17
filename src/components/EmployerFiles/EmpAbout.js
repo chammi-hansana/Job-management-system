@@ -6,16 +6,16 @@ import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import Container from "react-bootstrap/Container";
 
-export default function About() {
+export default function EmpAbout() {
   return (
     <div>
      <Navbar bg="light" expand="lg" className="navbar-fixed-top">
         <Container>
-          <Navbar.Brand href="#FindJob">
+          <Navbar.Brand href="#EmpAbout">
             Construction Services Management System
           </Navbar.Brand>
           <Navbar.Brand
-            id="#FindJob"
+            id="#EmpAbout"
             style={{
               color: "#0D638F",
               padding: "5px 200px 0px ",
@@ -35,9 +35,9 @@ export default function About() {
             style={{ padding: "5px 29px 10px 300px" }}
           >
             <Nav className="me-auto">
-              <Nav.Link href="/FindJob">FindJobs</Nav.Link>
+              <Nav.Link href="/HireJobs">HireJobs</Nav.Link>
 
-              <Nav.Link href="/Profile">Profile</Nav.Link>
+              <Nav.Link href="/Inputpost">AddPost</Nav.Link>
               <Nav.Link href="/about">About</Nav.Link>
               <Nav.Link href="/login" style={{ color: "red" }}>
                 Logout
