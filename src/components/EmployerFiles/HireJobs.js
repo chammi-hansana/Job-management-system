@@ -20,11 +20,11 @@ export default function HireJobs() {
     <div>
       <Navbar bg="light" expand="lg" className="navbar-fixed-top">
         <Container>
-          <Navbar.Brand href="#Findjob">
+          <Navbar.Brand href="#HireJobs">
             Construction Services Management System
           </Navbar.Brand>
           <Navbar.Brand
-            id="#Findjob"
+            id="#HireJobs"
             style={{
               color: "#0D638F",
               padding: "5px 200px 0px ",
@@ -83,27 +83,7 @@ export default function HireJobs() {
         ></div>
       </div>
 
-      {/* {location.pathname === "/HireJobs" && (
-        <Button
-          class="btn btn-success"
-          type="button"
-          style={{
-            margin: "20px 24px 8px 1280px",
-            height: "68px",
-            fontFamily: "Arial Rounded MT Bold",
-            width: "190px",
-            fontSize: "29px",
-            backgroundColor: "#ff6550",
-            borderRadius: "30px",
-            boxShadow:
-              "0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19)",
-          }}
-          className="mt-2"
-          onClick={(e) => applyHandler(e)}
-        >
-          Add Post
-        </Button>
-      )} */}
+     
 
 <div
             style={{
@@ -140,21 +120,23 @@ export default function HireJobs() {
           </div>
 
           <Card style={{ margin: "30px 0px 10px 130px",width: "70.8vh",
-      height:'33.9vh',backgroundColor:'#F9F9F9'}}>
+      height:'43.9vh',backgroundColor:'#F9F9F9'}}>
         <Card.Body>
           <Card.Title>
             <div style={{ display: "blog" }}>
-              <h2>Electrician</h2>
-             
+              <h2>House builder</h2>
+              
             </div>
             <p>Efito Solutions Pvt. Ltd.</p>
-            <p style={{ fontSize: "11px", marginTop: "-10px" }}>
+            <p style={{ fontSize: "12px", marginTop: "-12px" }}>
               12/12/2022 12:30PM{" "}
             </p>
           </Card.Title>
           <Card.Text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            <p style={{ fontSize: "15px", marginTop: "-8px" }}>2 days <br/>   Some quick example text to build on the card title and make up the
+            bulk of the card's content.</p>
+           
+            <p style={{ fontSize: "15px", marginTop: "-8px" }}>Rs.8 000 per day<br/> 0713452390</p>
           </Card.Text>
 
           {location.pathname === "/HireJobs" && (

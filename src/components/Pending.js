@@ -8,77 +8,69 @@ export default function Pending() {
         <div> <NavigationBar /> 
 
 <Card style={{ margin: "60px 4px 10px 120px",width: "70.8vh",
-      height:'30.4vh',backgroundColor:'#68c9a9'}}>
-        <Card.Body>
+      height:'35.4vh',backgroundColor:'#68c9a9'}}>
+       <Card.Body>
           <Card.Title>
             <div style={{ display: "blog" }}>
               <h2>House builder</h2>
-              {/* {location.pathname === "/Findjob" && (
-                // <Button variant="danger" size="sm" style={{ margin: "50px 5px 0px 50px"  }}>
-                //   Not selected
-                // </Button>
-              )} */}
+              
             </div>
             <p>Efito Solutions Pvt. Ltd.</p>
-            <p style={{ fontSize: "11px", marginTop: "-10px" }}>
+            <p style={{ fontSize: "12px", marginTop: "-12px" }}>
               12/12/2022 12:30PM{" "}
             </p>
           </Card.Title>
           <Card.Text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            <p style={{ fontSize: "15px", marginTop: "-8px" }}>2 days <br/>   Some quick example text to build on the card title and make up the
+            bulk of the card's content.</p>
+           
+            <p style={{ fontSize: "15px", marginTop: "-8px" }}>Rs.8 000 per day<br/> 0713452390</p>
           </Card.Text>
           </Card.Body>
       </Card>
 
       <Card style={{ margin: "60px 4px 10px 120px",width: "70.8vh",
-      height:'30.4vh',backgroundColor:'#68c9a9'}}>
-        <Card.Body>
+      height:'35.4vh',backgroundColor:'#68c9a9'}}>
+       <Card.Body>
           <Card.Title>
             <div style={{ display: "blog" }}>
-              <h2>Electrician</h2>
-              {/* {location.pathname === "/Findjob" && (
-                // <Button variant="danger" size="sm" style={{ margin: "50px 5px 0px 50px"  }}>
-                //   Not selected
-                // </Button>
-              )} */}
+              <h2>House builder</h2>
+              
             </div>
             <p>Efito Solutions Pvt. Ltd.</p>
-            <p style={{ fontSize: "11px", marginTop: "-10px" }}>
+            <p style={{ fontSize: "12px", marginTop: "-12px" }}>
               12/12/2022 12:30PM{" "}
             </p>
           </Card.Title>
           <Card.Text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            <p style={{ fontSize: "15px", marginTop: "-8px" }}>2 days <br/>   Some quick example text to build on the card title and make up the
+            bulk of the card's content.</p>
+           
+            <p style={{ fontSize: "15px", marginTop: "-8px" }}>Rs.8 000 per day<br/> 0713452390</p>
           </Card.Text>
           </Card.Body>
       </Card>
-      <Card style={{ margin: "-500px 0px 10px 930px",width: "70.8vh",
-      height:'30.4vh',backgroundColor:'#68c9a9'}}>
-        <Card.Body>
+      <Card style={{ margin: "-570px 0px 10px 930px",width: "70.8vh",
+      height:'35.4vh',backgroundColor:'#68c9a9'}}>
+       <Card.Body>
           <Card.Title>
             <div style={{ display: "blog" }}>
-              <h2>Electrician</h2>
-              {/* {location.pathname === "/Findjob" && (
-                // <Button variant="danger" size="sm" style={{ margin: "50px 5px 0px 50px"  }}>
-                //   Not selected
-                // </Button>
-              )} */}
+              <h2>House builder</h2>
+              
             </div>
             <p>Efito Solutions Pvt. Ltd.</p>
-            <p style={{ fontSize: "11px", marginTop: "-10px" }}>
+            <p style={{ fontSize: "12px", marginTop: "-12px" }}>
               12/12/2022 12:30PM{" "}
             </p>
           </Card.Title>
           <Card.Text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            <p style={{ fontSize: "15px", marginTop: "-8px" }}>2 days <br/>   Some quick example text to build on the card title and make up the
+            bulk of the card's content.</p>
+           
+            <p style={{ fontSize: "15px", marginTop: "-8px" }}>Rs.8 000 per day<br/> 0713452390</p>
           </Card.Text>
           </Card.Body>
       </Card>
-
-
 
 
          
