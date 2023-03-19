@@ -18,13 +18,15 @@ import HireJobs from "./components/EmployerFiles/HireJobs";
 import Inputpost from "./components/EmployerFiles/Inputpost";
 import EmpAbout from "./components/EmployerFiles/EmpAbout";
 
+import Admin from "./components/admin/adminDashboard";
+
 
 function App() {
   return (
    
     
     <Router>
-      <Routes>
+      <Routes> 
       <Route exact path="/Login" element={<Login/>} />
       <Route exact path="/" element={<Login/>} />
         <Route exact path="/Findjob" element={<Findjob />} />
@@ -42,6 +44,8 @@ function App() {
         <Route exact path="/HireJobs" element={<HireJobs/>} />
         <Route exact path="/Inputpost" element={<Inputpost/>} />
         <Route exact path="/EmpAbout" element={<EmpAbout/>} />
+
+        <Route exact path="/Admin" element={<Admin/>} />
       </Routes>
     </Router>
   );

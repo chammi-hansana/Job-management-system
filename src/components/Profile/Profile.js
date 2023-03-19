@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState , useEffect} from "react";
 import NavigationBar from "../Navigation/Navbar";
 
 import {
@@ -21,6 +21,16 @@ import {
 } from "mdb-react-ui-kit";
 
 export default function Profile() {
+
+  const [userData, setUserData] = useState();
+
+  useEffect(() => {
+    var userData =  localStorage.getItem('userData');
+    const dataObject = JSON.parse(userData);
+    setUserData(dataObject);
+  }, []);
+
+  console.log("userData",userData)
   return (
     <div>
       <NavigationBar />
@@ -73,12 +83,12 @@ export default function Profile() {
                         fontSize: "35px",
                       }}
                     >
-                      Hi, Saranga!
+                      Hi, {userData?.name}!
                     </MDBTypography>
                     <MDBCardText
                       style={{ margin: "-5px 5px 20px 60px", fontSize: "25px" }}
                     >
-                      Electrician
+                      {userData?.userType}
                     </MDBCardText>
                     <MDBIcon far icon="edit mb-5" />
                   </MDBCol>{" "}
@@ -105,23 +115,23 @@ export default function Profile() {
             <hr className="mt-0 mb-4" />
             <MDBRow className="pt-1">
               <MDBCol size="6" className="mb-3">
-                <MDBTypography tag="h9">Name - Saranga Perera</MDBTypography>
+                <MDBTypography tag="h9">Name - {userData?.name}</MDBTypography>
               </MDBCol>
             </MDBRow>
 
             <MDBCol size="6" className="mb-4">
-              <MDBTypography tag="h9">Address : Galle</MDBTypography>
+              <MDBTypography tag="h9">Address : {userData?.address}</MDBTypography>
             </MDBCol>
             <MDBCol size="6" className="mb-3">
-              <MDBTypography tag="h9">Contact No : 0768904563</MDBTypography>
-            </MDBCol>
-
-            <MDBCol size="6" className="mb-3">
-              <MDBTypography tag="h9">Age : 34</MDBTypography>
+              <MDBTypography tag="h9">Contact No : {userData?.phone}</MDBTypography>
             </MDBCol>
 
             <MDBCol size="6" className="mb-3">
-              <MDBTypography tag="h9">User Type : Job Seeker</MDBTypography>
+              <MDBTypography tag="h9">Age : {userData?.age}</MDBTypography>
+            </MDBCol>
+
+            <MDBCol size="6" className="mb-3">
+              <MDBTypography tag="h9">User Type : {userData?.userType}</MDBTypography>
             </MDBCol>
 
             <div className="d-flex justify-content-start">

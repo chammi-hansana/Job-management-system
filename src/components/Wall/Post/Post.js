@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect} from "react";
 import { Button } from "react-bootstrap";
 import Card from "react-bootstrap/Card";
 import { useNavigate, useLocation } from "react-router-dom";
@@ -6,6 +6,11 @@ import { useNavigate, useLocation } from "react-router-dom";
 export default function Post() {
   let navigate = useNavigate();
   const location = useLocation();
+
+  useEffect(() => {
+    console.log('Component mounted!');
+    
+  }, []);
 
   const applyHandler = () => {
     console.log("apply");
@@ -87,6 +92,8 @@ export default function Post() {
           )}
         </Card.Body>
       </Card>
+
+      
     </>
   );
 }
