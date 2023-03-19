@@ -139,7 +139,7 @@ export default function Signup() {
         padding: "8px 50px  ",
         margin: "1px 15px 2px 1px",
         width: "90vh",
-        height: '99.5vh',
+        height: '115.5vh',
         backgroundColor: 'white',
         boxShadow: '0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19)',
 
