@@ -265,7 +265,7 @@ export default function HireJobs() {
             <div className="col-md-6" key={index}>
               <Card style={{
                 margin: "30px 0px 10px 130px", width: "70.8vh",
-                height: '43.9vh', backgroundColor: '#F9F9F9'
+                height: '35.9vh', backgroundColor: '#F9F9F9'
               }}>
                 <Card.Body>
                   <Card.Title>

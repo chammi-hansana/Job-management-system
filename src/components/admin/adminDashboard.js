@@ -89,16 +89,17 @@ export default function Admin() {
     return (
         <>
 
-            <Navbar bg="light" expand="lg" className="navbar-fixed-top"  >
+            <Navbar bg="dark" expand="lg" className="navbar-fixed-top"  >
                 <Container>
-                    <Navbar.Brand href="#Findjob" >Construction Services Management System</Navbar.Brand>
+                    <Navbar.Brand href="#Findjob" style={{
+                        color: "#F5F5F5",fontSize: "15px", }}>Construction Services Management System</Navbar.Brand>
                     <Navbar.Brand id="#Findjob" style={{
-                        color: "#0D638F",
-                        padding: "5px 200px 0px ",
+                        color: "#F5F5F5",
+                        padding: "5px 300px 0px ",
                         margin: "5px 2px",
                         width: "20px",
-                        fontSize: "30px",
-                        fontFamily: 'MV Boli'
+                        fontSize: "40px",
+                        fontFamily: 'Segoe Print'
                     }}> Admin </Navbar.Brand>
 
 
@@ -106,7 +107,7 @@ export default function Admin() {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav" style={{ padding: "5px 50px 10px 300px", }}>
                         <Nav className="me-auto">
-                            <Nav.Link href="/login" style={{ color: "red" }} onClick={() => logoutFunc()}>
+                            <Nav.Link href="/login" style={{ color: "#FF0303",fontSize: "21px", }} onClick={() => logoutFunc()}>
                                 Logout
                             </Nav.Link>
                         </Nav>
