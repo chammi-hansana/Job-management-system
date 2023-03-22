@@ -147,8 +147,7 @@ export default function Wall() {
 
               <br  /><p style={{
                 marginTop: "35px"
-              }}>Job seekers can easily search for job opportunities on
-              a Construction Services Management System website.</p>
+              }}>Job seekers can easily search for job opportunities on a Construction Services Management System website website is a valuable tool for job seekers in the construction industry, as it provides access to a wide range of job opportunities and helps to streamline the job search process.</p>
             </div>
           </div>
 

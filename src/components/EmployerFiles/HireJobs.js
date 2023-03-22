@@ -236,16 +236,11 @@ export default function HireJobs() {
             height: '30.4vh',
           }}
         >
-          A Construction Services Management System website is a valuable
-          resource for job seekers in the construction industry. This website
-          provides a centralized platform for construction companies to manage
-          their projects and workforce efficiently, and it can also help job
-          seekers find relevant job opportunities.
+          A Construction Services Management System website is a valuable resource for employers in the construction industry. This website provides a centralized platform for construction companies to manage their projects and workforce efficiently, and it can also help employers find and attract relevant job seekers.
 
           <br style={{
             marginTop: "25px"
-          }} />Job seekers can easily search for job opportunities on
-          a Construction Services Management System website.
+          }} />The website is a valuable tool for employers in the construction industry, as it provides access to a wide range of job seekers and helps to streamline the hiring process.
         </div>
         <hr className="mt-0 mb-4" style={{ margin: "-510px 90px 0px 90px", }} />
         <div
