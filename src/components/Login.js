@@ -138,11 +138,11 @@ export default function Login() {
               }
             />
 
-            <div style={{ textAlign: "right", fontStyle: "italic", fontSize: '15px' }}>
+            {/* <div style={{ textAlign: "right", fontStyle: "italic", fontSize: '15px' }}>
 
               <a href="#">Forgot Password?</a>
 
-            </div>
+            </div> */}
           </div>
           <div style={{ textAlign: "left", fontSize: '28px' }}>
             <a href="/sign-up" > Signup</a></div>

@@ -259,8 +259,8 @@ export default function HireJobs() {
         {data?.map((post, index) => (
             <div className="col-md-6" key={index}>
               <Card style={{
-                margin: "30px 0px 10px 130px", width: "70.8vh",
-                height: '35.9vh', backgroundColor: '#F9F9F9'
+                margin: "30px 0px 30px 130px", width: "70.8vh",
+                height: '28.9vh', backgroundColor: '#F9F9F9'
               }}>
                 <Card.Body>
                   <Card.Title>
@@ -277,16 +277,17 @@ export default function HireJobs() {
                     <p style={{ fontSize: "15px", marginTop: "-8px" }}>{post?.job_id?.desc}</p>
                   </Card.Text>
                   <Card.Title>
-                    <div style={{ display: "blog" }}>
-                      <h5>Seeker :{post?.user_id?.name}</h5>
+                
+                    <div style={{ display: "blog", }}>
+                      <h5 style={{ backgroundColor:'#F4D9E7',margin: "-90px 75px 40px 200px",padding:'5px 10px 5px 20px'}}>Seeker :  {post?.user_id?.name} </h5>
 
                     </div>
-                    <p style={{ fontSize: "15px", marginTop: "-8px" }}>{post?.user_id?.email}<br /> {post?.user_id?.phone}
+                    <p style={{ fontSize: "16px", marginTop: "-8px",backgroundColor:'#F4D9E7',margin: "-40px 75px 40px 200px" ,padding:'0px 10px 10px 20px'}}>{post?.user_id?.email}<br /> {post?.user_id?.phone}
                     </p>
                   </Card.Title>
 
                   {location.pathname === "/HireJobs" && (
-                    <Button variant="danger" size="mm" style={{ margin: "2px 5px 0px 340px" }} onClick={() => rejectFunc(post?._id, post?.job_id?._id)}>
+                    <Button variant="danger" size="mm" style={{ margin: "2px 25px 0px 310px" }} onClick={() => rejectFunc(post?._id, post?.job_id?._id)}>
                       Reject
                     </Button>
                   )}

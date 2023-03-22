@@ -160,9 +160,9 @@ export default function Wall() {
             <div className="col-md-6" key={index}>
               <Card
                 style={{
-                  margin: "50px 34px 10px 80px",
-                  width: "82.8vh",
-                  height: "45.4vh",
+                  margin: "50px 34px 40px 80px",
+                  width: "70.8vh",
+                  height: "42.4vh",
                   backgroundColor: "#FFDFAF",
                 }}
               >
@@ -183,7 +183,8 @@ export default function Wall() {
                   </Card.Text>
 
                   {/* {location.pathname == "/FindJob" && ( */}
-                    <Button
+                    <Button style={{
+                  margin: "10px 34px 10px 300px",padding:'10px 30px 10px 30px' }}
                       className="mt-2"
                       onClick={() => applyHandler(post?._id)}
                       variant="dark"
