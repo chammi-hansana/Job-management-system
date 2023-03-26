@@ -94,20 +94,20 @@ export default function Admin() {
                     <Navbar.Brand href="#Findjob" style={{
                         color: "#F5F5F5",fontSize: "15px", }}>Construction Services Management System</Navbar.Brand>
                     <Navbar.Brand id="#Findjob" style={{
-                        color: "#F5F5F5",
-                        padding: "5px 300px 0px ",
-                        margin: "5px 2px",
-                        width: "20px",
-                        fontSize: "40px",
-                        fontFamily: 'Segoe Print'
+                         color: "#F5F5F5",
+                         padding: "5px 300px 0px ",
+                         margin: "5px 2px",
+                         width: "20px",
+                         fontSize: "40px",
+                         fontFamily: 'Segoe Print'
                     }}> Admin </Navbar.Brand>
 
 
 
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                    <Navbar.Collapse id="basic-navbar-nav" style={{ padding: "5px 50px 10px 300px", }}>
+                    <Navbar.Collapse id="basic-navbar-nav" style={{ padding: "5px 50px 10px 300px",color: "#FF0303",fontSize: "21px", }}>
                         <Nav className="me-auto">
-                            <Nav.Link href="/login" style={{ color: "#FF0303",fontSize: "21px", }} onClick={() => logoutFunc()}>
+                            <Nav.Link href="/login" style={{ color: "red" }} onClick={() => logoutFunc()}>
                                 Logout
                             </Nav.Link>
                         </Nav>

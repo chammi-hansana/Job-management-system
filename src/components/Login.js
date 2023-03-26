@@ -131,7 +131,7 @@ export default function Login() {
           <div className="mb-4">
             <Form.Label className="mt-4">Password</Form.Label>
             <Form.Control
-              type="pasword"
+              type="password"
               placeholder="Password"
               onChange={(e) =>
                 setloginData({ ...loginData, password: e.target.value })

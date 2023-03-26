@@ -222,7 +222,7 @@ export default function Inputpost() {
         padding: "18px 50px  ",
         margin: "-11px 15px 25px 450px",
         width: "90vh",
-        height: '125.5vh',
+        height: '120.5vh',
         backgroundColor: '#D3CEDF',
         boxShadow: '0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19)',
 

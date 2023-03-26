@@ -54,7 +54,7 @@ export default function Reject() {
             return <div className="col-md-6" key={index}>
               <Card style={{
                 margin: "60px 14px 10px 120px", width: "70.8vh",
-                height: '35.4vh', backgroundColor: '#FF5733'
+                height: '35.4vh', backgroundColor: '#F7A4A4'
               }}>
                 <Card.Body>
                   <Card.Title>

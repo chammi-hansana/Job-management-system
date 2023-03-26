@@ -67,7 +67,7 @@ export default function HireJobs() {
             confirmButtonText: "Ok",
           }).then((result) => {
             if (result.isConfirmed) {
-              // navigate("/HireJobs");
+              window.location.reload();
             } else if (result.isDenied) {
             }
           });
@@ -125,7 +125,7 @@ export default function HireJobs() {
             confirmButtonText: "Ok",
           }).then((result) => {
             if (result.isConfirmed) {
-              // navigate("/HireJobs");
+              window.location.reload();
             } else if (result.isDenied) {
             }
           });
@@ -256,10 +256,12 @@ export default function HireJobs() {
       </div>
       <div>
         <div className="row">
-        {data?.map((post, index) => (
-            <div className="col-md-6" key={index}>
+        {data?.map((post, index) => {
+          if (post?.status == "Pending"){
+            return(
+              <div className="col-md-6" key={index}>
               <Card style={{
-                margin: "30px 0px 30px 130px", width: "70.8vh",
+                margin: "30px 0px 10px 130px", width: "70.8vh",
                 height: '28.9vh', backgroundColor: '#F9F9F9'
               }}>
                 <Card.Body>
@@ -277,12 +279,11 @@ export default function HireJobs() {
                     <p style={{ fontSize: "15px", marginTop: "-8px" }}>{post?.job_id?.desc}</p>
                   </Card.Text>
                   <Card.Title>
-                
-                    <div style={{ display: "blog", }}>
-                      <h5 style={{ backgroundColor:'#F4D9E7',margin: "-90px 75px 40px 200px",padding:'5px 10px 5px 20px'}}>Seeker :  {post?.user_id?.name} </h5>
+                    <div style={{ display: "blog" }}>
+                      <h5 style={{ backgroundColor:'#F4D9E7',margin: "-90px 75px 40px 200px",padding:'5px 10px 5px 20px'}}>Seeker : {post?.user_id?.name}</h5>
 
                     </div>
-                    <p style={{ fontSize: "16px", marginTop: "-8px",backgroundColor:'#F4D9E7',margin: "-40px 75px 40px 200px" ,padding:'0px 10px 10px 20px'}}>{post?.user_id?.email}<br /> {post?.user_id?.phone}
+                    <p style={{ fontSize: "16px", marginTop: "-8px",backgroundColor:'#F4D9E7',margin: "-40px 75px 40px 200px" ,padding:'0px 10px 10px 20px' }}>{post?.user_id?.email}<br /> {post?.user_id?.phone}
                     </p>
                   </Card.Title>
 
@@ -300,7 +301,9 @@ export default function HireJobs() {
                 </Card.Body>
               </Card>
             </div>
-          ))}
+            )
+          }
+        })}
         </div>
       </div>
     </>

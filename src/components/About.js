@@ -185,6 +185,17 @@ export default function About() {
       </Row>
 
       <div
+        style={{
+          width: "218vh",
+          heigth: "280vh",
+          padding: "5px 30px 60px 80px",
+          //margin: "0px 0px 20px 10px",
+          backgroundColor: "#2B2B2B",
+          
+                 }}
+      ></div>
+
+      {/* <div
           style={{
             textAlign: "center",
             fontSize: "50px",
@@ -266,7 +277,7 @@ export default function About() {
           </Card.Body>
         </Card>
       </div>
-    </div>
+    </div> */}
     </div>
   );
 }

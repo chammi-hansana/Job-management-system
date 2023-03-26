@@ -66,10 +66,12 @@ export default function Wall() {
               confirmButtonText: "Ok",
             }).then((result) => {
               if (result.isConfirmed) {
-
+                window.location.reload();
               } else if (result.isDenied) {
               }
             });
+
+            
           } else {
             Swal.fire({
               title: "error!",

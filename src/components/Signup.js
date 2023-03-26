@@ -231,7 +231,7 @@ export default function Signup() {
             <div className="mb-2">
               <Form.Label className="mt-3">Password</Form.Label>
               <Form.Control
-                type="pasword"
+                type="password"
                 placeholder="Password"
                 onChange={(e) =>
                   setRegData({ ...regData, password: e.target.value })
