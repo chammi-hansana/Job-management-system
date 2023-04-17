@@ -185,19 +185,17 @@ export default function EmpAbout() {
       </Row>
 
       <div
-          style={{
-            textAlign: "center",
-            fontSize: "50px",
-            color: "black",
-            
-            fontFamily: " Comic Sans MS",
-            margin: "20px 0px 40px 0px",
-          }}
-        >  <hr className="mt-0 mb-4" style={{ margin: "-510px 90px 0px 90px", }}/>
-          <p className="mb-1">Meet the Team</p>
-        </div>
+        style={{
+          width: "218vh",
+          heigth: "280vh",
+          padding: "5px 30px 60px 80px",
+          //margin: "0px 0px 20px 10px",
+          backgroundColor: "#2B2B2B",
+          
+                 }}
+      ></div>
 
-      <div
+      {/* <div
         style={{
           width: "180vh",
           heigth: "200vh",
@@ -266,7 +264,7 @@ export default function EmpAbout() {
           </Card.Body>
         </Card>
       </div>
-    </div>
+    </div> */}
     </div>
   );
 }
